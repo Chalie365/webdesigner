@@ -1,0 +1,41 @@
+/* Additional custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+.header {
+    background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+}
+
+#about img {
+    max-width: 80%;
+    border-radius: 6px;
+}
+#project2 img {
+    max-width: 100%;
+	max-height: 80%;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+footer {
+    background: #333;
+}
+
+footer p {
+    margin: 0;
+    color: #bbb;
+}
